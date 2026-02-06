@@ -1,0 +1,186 @@
+/* =================================
+   CSS Styles for Workshop 01
+   ================================= */
+
+/* TODO Task 2: Add your general styles here */
+
+/* Reset and Base Styles */
+* {
+    /* Add your reset styles here (margin, padding, box-sizing) */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        
+}
+
+body {
+    /* Add body styles:  font-family, background-color, color, etc. */
+    background-color: #DEDBBC;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* TODO Task 2: Style your headings */
+h1 {
+    text-align: center;
+    background-color: #BC922D;
+    color: #DEDBBC;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #8E3801;
+    padding: 10px;
+}
+
+/* TODO Task 2: Style your paragraphs */
+p {
+    text-align: center;
+    color: #8E3801;
+}
+
+/* TODO Task 2: Style your images */
+img {
+    display: block;
+    max-width: 300px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* TODO Task 3: Navigation Styles */
+nav {
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+nav ul {
+    /* Remove bullets and style the list */
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    /* Display items horizontally */
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    /* Style the links */
+    color: #8E3801;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    /* Add hover effect */
+    background-color: #BC922D;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    /* Add spacing between sections */
+    margin-bottom: 40px;
+}
+
+/* TODO Task 4: Form Styles */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    /* Style form inputs */
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button,
+input[type="submit"] {
+    /* Style the submit button */
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    /* Add hover effect for button */
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    color: #BC922D;
+}
+
+/* TODO Task 5: Media Queries for Responsive Design */
+/* Tablet styles (optional) */
+@media (max-width: 768px) {
+    /* Add your tablet/mobile styles here */
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    img {
+        max-width: 80%;
+    }
+}
+
+/* Mobile styles */
+@media (max-width:  480px) {
+    /* Add your mobile-specific styles here */
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        padding: 0 10px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}

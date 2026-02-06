@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TODO: Add a descriptive title for your page -->
+    <title>Workshop 1 Web Development basics</title>
+    
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!-- TODO Task 3: Add navigation menu here -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- TODO Task 1: Add your main content here -->
+    <!-- Use  h2, p, and img tags -->
+    <main>
+        <section id="home">
+            <!-- Add your heading, subheading, paragraph, and image here -->
+            <h1>Welcome to Workshop 1!</h1>
+            <h2>This is the index file.</h2>
+            <p>something, something..</p>
+            <img src="star.jpg" alt="star">
+        </section>
+        
+        <!-- TODO Task 1 & 3: Add an about section -->
+        <section id="about">
+            <h2>This is Workshop 1 of the Full Stack course. Above is a picture of a tired star.</h2>
+        </section>
+        
+        <!-- TODO Task 4: Add contact form section here -->
+        <section id="contact">
+            <h1>Contact the star</h1>
+            <p>Feel free to reach out by filling the form below!</p>
+
+             <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="message">Other:</label>
+                <textarea id="message" rows="5" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    
+    <!-- Optional: Add a footer -->
+    <footer>
+        Footer. Made by Hannah Villarao
+    </footer>
+</body>
+</html>
